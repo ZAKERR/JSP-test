@@ -8,7 +8,7 @@
 
      <% String num = request.getParameter("num");
 
-       if(num == null) num = 0;
+       if(num == null) num = "0";
 		else{
 		   int hw = Integer.parseInt(num);
 		   if(hw <= 50 && hw >= 1) {
@@ -36,7 +36,7 @@
 
 
     <form method="get" action="">
-        请输入1-100之间的整数<input type="text" name="num">
+        请输入1-100之间的整数:<input type="text" name="num">
 	   <input type="submit" value="提交">
     </form>
  </body>
