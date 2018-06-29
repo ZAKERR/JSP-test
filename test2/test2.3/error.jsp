@@ -2,10 +2,12 @@
 <html >
  <head>
   <title>Document</title>
+  <jsp:include page = "head.txt" />
  </head>
  <body>
      <% 
 	   String hw = request.getParameter("num");
+	   hw = "100";
 	   int num = Integer.parseInt(hw);  
 	 %>
 	 <p> This is error </p>

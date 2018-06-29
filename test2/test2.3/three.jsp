@@ -2,6 +2,7 @@
 <html >
  <head>
   <title>Document</title>
+  <jsp:include page = "head.txt" />
  </head>
  <body>
      <% 
